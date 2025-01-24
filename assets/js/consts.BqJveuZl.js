@@ -1,0 +1,52 @@
+const t = "mixo-chat",
+  o = {
+    home: "/",
+    trial: "/trial",
+    features: "/features",
+    guides: "/guides",
+    chat: "/chat",
+    versions: "/versions",
+    interviews: "/interviews",
+    roadmap: "/roadmap",
+    blog: "/blog",
+    merch: "/merch",
+    book: "/book",
+    story: "/story",
+    meet: "/meet",
+    contact: "/contact",
+    download: "/download",
+    login: "/login",
+    loginCallback: "/login/callback",
+    live: "/live",
+    pricing: "/pricing",
+    terms: "/terms",
+    privacy: "/privacy",
+    profile: "/profile",
+  },
+  a = "https://mixo-chat-functions-dev.azurewebsites.net/api",
+  s = "https://mixo-chat-auth-server-dev.azurewebsites.net",
+  i = "https://mixo-website-functions-dev.azurewebsites.net/api",
+  e = {
+    name: "pink",
+    color: "#e04270",
+  },
+  r = [
+    {
+      name: "slate",
+      color: "#263340",
+    },
+    {
+      name: "green",
+      color: "#20e4bd",
+    },
+    {
+      name: "white",
+      color: "#ffffff",
+    },
+    {
+      name: "black",
+      color: "#000000",
+    },
+    e,
+  ];
+export { t as C, i as F, s as P, a, e as d, o as r, r as t };

@@ -51,21 +51,6 @@
 .right-10 {
   right: calc(var(--spacing) * 10);
 }
-.library-section {
-  background: var(--color-primary) !important;
-}
-
-.video-section {
-  background: var(--color-primary) !important;
-}
-
-.faq-section {
-  background: var(--color-primary) !important;
-}
-
-.experience-section {
-  background: var(--color-primary) !important;
-}
 
 .chatWindow {
   display: none; /* Hidden by default */
@@ -164,4 +149,77 @@
 .svg-style {
   fill: var(--color-secondary);
   stroke: var(--color-secondary);
+}
+
+/* Very
+  important
+  for
+  having
+  a
+  smooth
+  transitions.
+  .swiper-free-mode
+  > .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  display: flex;
+  align-items: stretch;
+  font-family: system-ui, sans-serif;
+  padding: 0 1rem;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+.u-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.c-carousel {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.c-carousel__wrapper.swiper {
+  margin: 0 48px;
+  position: static;
+}
+
+.c-carousel__inner-wrapper.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.c-carousel svg {
+  margin: 0 auto;
+} */
+
+.c-carousel__item {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.faq-question {
+  line-height: 29px;
 }
