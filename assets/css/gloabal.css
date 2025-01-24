@@ -60,12 +60,12 @@
   --mixo-green: #20e4bd;
   --mixo-slate: #263340;
   --mixo-gray: #b3b3b3;
-  --home-section-gradient: linear-gradient(45deg, #e0426f, #e0426f);
-  /* --home-section-gradient: linear-gradient(
+  /* --home-section-gradient: linear-gradient(45deg, #e0426f, #e0426f); */
+  --home-section-gradient: linear-gradient(
     45deg,
     hsl(210, 25%, 20%),
     hsl(209, 25%, 30%)
-  ); */
+  );
   --hero-image-shadow-color: transparent;
   --hero-image-shadow-color: hsl(210, 25%, 52%);
   --hero-text-shadow-color: hsla(0 0 100/50%);
